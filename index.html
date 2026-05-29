@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A tiny static soundboard for bell sound effects.">
+    <title>Bellboard</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <header class="masthead" aria-labelledby="page-title">
+        <p class="eyebrow">Sound effects</p>
+        <h1 id="page-title">Bellboard</h1>
+      </header>
+
+      <section class="sound-grid" aria-label="Bell sound effects">
+        <button
+          class="sound-button tone-warm"
+          type="button"
+          data-sound="assets/audio/community-bell.mp3"
+          data-label="Town Square Bell"
+        >
+          <span class="button-title">Town Square Bell</span>
+          <span class="button-hint">Warm, public, ceremonial</span>
+        </button>
+
+        <button
+          class="sound-button tone-clear"
+          type="button"
+          data-sound="assets/audio/clear-bell-chime.mp3"
+          data-label="Crystal Chime"
+        >
+          <span class="button-title">Crystal Chime</span>
+          <span class="button-hint">Bright, clean, magical</span>
+        </button>
+      </section>
+
+      <p class="status" role="status" aria-live="polite">Ready.</p>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
