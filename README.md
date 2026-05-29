@@ -7,6 +7,8 @@ HTML, CSS, and JavaScript so it can be hosted directly on GitHub Pages.
 
 - **Town Square Bell** uses `assets/audio/community-bell.mp3`.
 - **Crystal Chime** uses `assets/audio/clear-bell-chime.mp3`.
+- **Counter Bell** uses `assets/audio/bell-ding.mp3`.
+- **Soft Ding** uses `assets/audio/soft-ding.mp3`.
 
 ## Local use
 

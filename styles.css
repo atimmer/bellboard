@@ -9,6 +9,10 @@
   --warm-b: #d85f3f;
   --clear-a: #79d4cf;
   --clear-b: #4d7cda;
+  --signal-a: #a7d86f;
+  --signal-b: #348f6d;
+  --soft-a: #f2a0ba;
+  --soft-b: #8f63cf;
   --shadow: 0 22px 70px rgba(39, 35, 25, 0.22);
 }
 
@@ -134,6 +138,16 @@ h1 {
 .tone-clear {
   --tone-a: var(--clear-a);
   --tone-b: var(--clear-b);
+}
+
+.tone-signal {
+  --tone-a: var(--signal-a);
+  --tone-b: var(--signal-b);
+}
+
+.tone-soft {
+  --tone-a: var(--soft-a);
+  --tone-b: var(--soft-b);
 }
 
 .button-title,
